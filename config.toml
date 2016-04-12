@@ -1,3 +1,63 @@
 baseurl = "http://replace-this-with-your-hugo-site.com/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Visualize | Designed by TEMPLATED | Adapted to Hugo by Branch Web Presence"
+copyright = "&copy; Untitled. All rights reserved. Hugo Theme: [Branch Web Presence](https://www.branchwebpresence.com/). Design: [TEMPLATED](http://templated.co/). Demo Images: [Unsplash](http://unsplash.com/)."
+
+[params]
+header = [
+  "This is **Visualize**, a responsive site template designed by [TEMPLATED](http://templated.co/)",
+  "Adapted to [Hugo](http://gohugo.io/) by [Branch Web Presence](https://www.branchwebpresence.com/)",
+  "and released for free under the Creative Commons License."]
+
+[params.avatar]
+src = "images/avatar.jpg"
+alt = "Avatar"
+
+[params.social]
+twitter = "https://twitter.com/"
+facebook = "https://www.facebook.com/"
+instagram = "https://www.instagram.com/"
+fivehundredpx = "https://500px.com"
+email = "info@example.com"
+
+[[params.leftColumn]]
+title = "Lorem ipsum dolor sit amet"
+href = "images/fulls/01.jpg"
+src = "images/thumbs/01.jpg" 
+alt = "image 01"
+
+[[params.leftColumn]]
+title = "Lorem ipsum dolor sit amet"
+href = "images/fulls/02.jpg"
+src = "images/thumbs/02.jpg"
+alt = "image 02"
+
+[[params.middleColumn]]
+title = "Lorem ipsum dolor sit amet"
+href = "images/fulls/03.jpg"
+src = "images/thumbs/03.jpg"
+alt = "image 03"
+
+[[params.middleColumn]]
+title = "Lorem ipsum dolor sit amet"
+href = "images/fulls/04.jpg"
+src = "images/thumbs/04.jpg"
+alt = "image 04"
+
+[[params.middleColumn]]
+title = "Lorem ipsum dolor sit amet"
+href = "images/fulls/05.jpg"
+src = "images/thumbs/05.jpg"
+alt = "image 05"
+
+[[params.rightColumn]]
+title = "Lorem ipsum dolor sit amet"
+href = "images/fulls/06.jpg"
+src = "images/thumbs/06.jpg"
+alt = "image 06"
+
+[[params.rightColumn]]
+title = "Lorem ipsum dolor sit amet"
+href = "images/fulls/07.jpg"
+src = "images/thumbs/07.jpg"
+alt = "image 07"
